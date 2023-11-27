@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 14, 14);
+    width: 100vw;
+    height: 100vh;
+}
+
+.h{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yell-child{
+    margin-top: 10%;
+}
+
+.main{
+    height: 90%;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+}
+
+.image{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    margin: 10% 50% 50% 20%;
+}
+.white{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+}
+
+.yellow{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding:5px 10px 30px 500px;
+    background-color: rgb(250, 219, 45);
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+
+span{
+    text-decoration:underline;
+}
+
+.para{
+    padding-top: 2%;
+}
+
+button{
+    padding-top: 3%;
+    color: white;
+    background-color: black;
+    height: 25px;
+    padding: 2%;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:550px){
+    img{
+      width: 350px;
+      height: 300px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  
+@media only screen and (min-width: 551px) and (max-width:1278px) {
+    img{
+      width: 450px;
+      height: 400px;
+    }
+    p{
+      font-size: 18px;
+    }
+}
